@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: my-font;
+    src: url("font/font-me.ttf") format("opentype");
+  }
+@layer components{
+    .row{
+        @apply flex flex-wrap w-full ;
+    }
+    .center{
+        @apply justify-center items-center;
+    }
+}
